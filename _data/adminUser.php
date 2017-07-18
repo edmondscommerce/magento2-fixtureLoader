@@ -1,0 +1,34 @@
+<?php
+/**
+ * This file is part of edmondscommerce/fixtureloader.
+ *
+ * edmondscommerce/fixtureloader is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ */
+
+$adminData = [
+    [
+        'firstname'   => 'Admin',
+        'lastname'    => 'Admin',
+        'email'       => 'test@example.com',
+        'username'    => 'test_admin',
+        'password'    => 'password123',
+        'is_active'   => '1',
+        'role_type'   => 'G',
+        'resource_id' => 'Magento_Backend::all',
+        'privileges'  => '',
+        'assert_id'   => 0,
+        'role_id'     => 1,
+        'permissions' => 'allow'
+    ]
+];

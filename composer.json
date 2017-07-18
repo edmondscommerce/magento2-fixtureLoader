@@ -1,0 +1,28 @@
+{
+    "name": "edmondscommerce/fixtureloader",
+    "description": "An eaiser way to load fixtures in magento 2 tests",
+    "type": "library",
+    "license": "GPL v3",
+    "authors": [
+        {
+            "name": "Ross Mitchell",
+            "email": "ross@edmondscommerce.co.uk"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {
+        "phpunit/phpunit": "~4.1.0",
+        "magento/framework": "~100.1"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "EdmondsCommerce\\FixtureLoader\\": ""
+        }
+    }
+}
